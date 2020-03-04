@@ -24,13 +24,18 @@ h4{
 	font-size: 1.3rem;
 	font-weight: 500;
 }
+h5{
+	color:#374048;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
 
 .hr-sub{
 
 }
 
 .backround-grey{
-	background-color:#f8fbfd;
+	background-color:#e9eaec;
 
 }
 
@@ -102,33 +107,116 @@ header{
 	text-align: center;
 }
 
-#apple-watch-2{
-	
-}
-
-#info-graph .container i{
-	color:#FFFFFF;
-	background:#0084ff;
-	border-radius:10px;
+.info-button {
+    background: #0084ff;
+    width: 24px;
+    height: 24px;
+    border-radius: 25px;
+    padding-top: 4px;
+    color:#FFFFFF;
 }
 .container #top-left{   
-	
+	position: relative;
+	bottom:333px;
 	     
 }
 .container #top-right{
- 	
+ 	position: relative;
+ 	bottom: 460px;
 
 }
 
 .container #bottom-left{
-	
-	
+	position: relative;
+	bottom: 150px;
 }    
 
 .container #bottom-right{
-	
-	
+	position: relative;
+	bottom: 200px;
 }
+
+#top-left .info-button{
+	    position: absolute;
+	    left: 32%;
+}
+
+#top-right .info-button{
+	position: absolute;
+    left: 63%;
+}
+
+#bottom-left .info-button{
+	    position: absolute;
+	    left: 32.2%;
+}
+
+#bottom-right .info-button{
+	position: absolute;
+    left: 55%;
+}
+
+
 /*=====  End of Product InfoGraph  ======*/
 
+
+/*====================================
+*            How-It-Works            *
+====================================*/
+#how-it-works{
+	text-align: center;
+}
+#how-it-works .card-header{
+	font-size: 5rem;
+	background:#e9eaec; 
+	border: 0;
+}
+#how-it-works .card{
+	background:#e9eaec;
+	border: 0; 
+}
+
+
+/*=====  End of How-It-Works  ======*/
+
+/*====================================
+*            The-Benefits            *
+====================================*/
+#the-benefits{
+	text-align: center;
+}
+
+#the-benefits .container i{
+	float: left;
+	font-size:2rem;
+	position: absolute;
+	left: -18px;
+    bottom: 55px;
+    color: #0084ff;
+}
+
+.col-sm {
+
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align:left;
+
+}
+
+/*=====  End of The-Benefits  ======*/
+
+/*================================
+*            features            *
+================================*/
+#features{
+	text-align: center;
+}
+.cards-left{
+	display: flex;
+	float: left;
+	clear: both;
+}
+
+
+/*=====  End of features  ======*/
 
