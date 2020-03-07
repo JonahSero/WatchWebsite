@@ -521,8 +521,22 @@ small{
 *            Footer            *
 ==============================*/
 
+#end .container{
+	margin: auto;
+	text-align:center;
 
+}
 
+#end img{
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+#end .container li{
+	display: inline;
+
+	padding: 5rem 2rem;
+
+}
 /*=====  End of Footer  ======*/
 
 
