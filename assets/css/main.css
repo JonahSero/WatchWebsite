@@ -23,6 +23,7 @@ h4{
 	color:#374048;
 	font-size: 1.3rem;
 	font-weight: 500;
+
 }
 h5{
 	color:#374048;
@@ -48,7 +49,7 @@ h5{
 p{
 	color: #c0cad0;
 	font-size:1.1rem;
-	font-weight: 300;
+	font-weight: 500;
 
 }
 
@@ -209,14 +210,319 @@ header{
 *            features            *
 ================================*/
 #features{
+	align-content: center;
+	text-align: center;
+
+
+}
+
+#features .container{
+	margin: auto;
+}
+
+#cards-left .card{
+	border:none;
+	padding: 0;
+}
+
+.icons{
+	position: absolute;
+    left: -2rem;
+    top: 2rem;
+    font-size: 2rem;
+    color: #fe7e45;
+}
+
+#cards-right .card{
+	border:none;
+	padding: 0;
+}
+
+#features img{
+	max-width: 75%;
+	padding-left: 0px;
+}
+/*=====  End of features  ======*/
+
+/*================================
+*            Products            *
+================================*/
+
+#products{
+	align-content: center;
 	text-align: center;
 }
-.cards-left{
-	display: flex;
-	float: left;
-	clear: both;
+
+#products .card-title {
+	font-size: 1rem;
+	color: #0084ff;
+	font-weight:600; 
+	
+	}
+
+#products .card-text{
+	font-size: .8rem;
+	
+	}
+
+#products .price{
+	font-size: 1.2rem;
+	color: #fe7e45;
+	font-weight:600; 
+	
+	}
+
+#products .card{
+	border:none;
+	padding-bottom: 5rem;
+}	
+/*=====  End of Products  ======*/
+
+/*=================================
+*            the-watch            *
+=================================*/
+
+#the-watch i{
+	color: #fe7e45;
+	font-size: 1.3rem;
+	letter-spacing: 1.1rem;
+}
+
+#the-watch .checks h4{
+	letter-spacing: 1.1rem;
+
 }
 
 
-/*=====  End of features  ======*/
+/*=====  End of the-watch  ======*/
+
+
+/*===============================
+*            modeled            *
+===============================*/
+#modeled{
+	text-align: center;
+}
+
+.model-pics{
+	max-width: 100%
+} 
+
+#modeled .col-md-6{
+    max-width:50%;
+	padding:0px;
+}
+
+.model-text h3{
+	padding-top: 6rem;
+
+}
+
+#modeled .row{
+	margin: 0;
+}
+
+/*=====  End of modeled  ======*/
+
+/*===============================
+*            Reviews            *
+===============================*/
+
+#reviews{
+	text-align: center;
+}
+
+#reviews i{
+	padding-top: 3rem;
+}
+
+#reviews p{
+	padding-top: 2rem;
+}
+
+#reviews img{
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+
+}
+
+#reviews footer img{
+	opacity: 0.5;
+}
+
+/*=====  End of Reviews  ======*/
+
+/*===========================
+*            FAQ            *
+===========================*/
+#faq{
+	text-align: center;
+}
+
+#faq .row{
+	text-align: left;
+}
+
+/*=====  End of FAQ  ======*/
+
+/*=============================
+*            Specs            *
+=============================*/
+#specs{
+	text-align: center;
+}
+
+#specs .row{
+	text-align: left;
+
+}
+
+
+/*=====  End of Specs  ======*/
+
+/*============================
+*            Team            *
+============================*/
+
+#team{
+	text-align: center;
+}
+
+#team .card{
+	border:0;
+	background-color:;
+}
+
+#team .card-text{
+	font-size: 1rem;
+}
+
+
+/*=====  End of Team  ======*/
+
+/*================================
+*            Timeline            *
+================================*/
+
+
+
+/*=====  End of Timeline  ======*/
+
+/*================================
+*            app-info            *
+================================*/
+
+#app-info .jumbotron{
+	position: relative;
+	background: url(../images/app-info-back.png);
+	background-size: cover;
+	text-align: left;
+	padding: 0;
+	min-height: 100%;
+}
+#app-info .card{
+	position: relative;
+    left: 45rem;
+    top: 10rem;
+    width: 35rem;
+    background-color: transparent;
+}
+
+#app-info h2{
+	color:#FFFFFF;
+	font-size: 3rem;
+}
+#app-info p{
+	color:#FFFFFF;
+	font-size: 1rem;
+}
+/*=====  End of app-info  ======*/
+
+/*===================================
+*            Newsletter            *
+===================================*/
+#newsletter{
+	text-align: center;
+}
+
+#newsletter form{
+	width: 33rem;
+	margin:auto;
+}
+#newsletter input{
+	height: 3rem;
+	border-radius: 0px;
+}
+
+
+#newsletter button{
+	width:5rem;
+	border-radius: 0px;
+	background: #0084ff;
+	color: #FFFFFF;
+}
+
+small{
+	letter-spacing: 1px;
+
+}
+/*=====  End of Newsletter  ======*/
+
+/*================================
+*            in-touch            *
+================================*/
+
+#in-touch{
+	background: url(../images/map.png);
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	text-align: center;
+}
+
+#in-touch .container{
+	position: relative;
+	text-align: center;
+}
+#in-touch .card{
+	width: 28rem;
+	margin: auto;
+	position: relative;
+	top: 10rem;
+	border: none;
+    border-radius: 0px;
+}
+
+#in-touch ul{
+	list-style-type: none;
+}
+
+#in-touch i{
+	
+	float: left;
+}
+
+#in-touch li{
+	padding-top: 2rem;
+	color:#969da3;
+	font-size: 1rem;
+	font-weight: 300;
+
+}
+
+#in-touch .card .btn{
+	width: 25rem;
+	border-radius: 0;
+
+}
+/*=====  End of in-touch  ======*/
+
+/*==============================
+*            Footer            *
+==============================*/
+
+
+
+/*=====  End of Footer  ======*/
+
 
